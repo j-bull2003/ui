@@ -1,0 +1,60 @@
+{
+  "name": "node-react",
+  "version": "0.1.0",
+  "license": "ISC",
+  "proxy": "http://localhost:4000",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build NODE_ENV=production",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.4.0",
+    "@ant-design/plots": "^1.2.5",
+    "@emotion/react": "^11.7.0",
+    "@emotion/styled": "^11.6.0",
+    "@mui/icons-material": "^5.2.1",
+    "@mui/material": "^5.2.3",
+    "@react-pdf/pdfkit": "^2.0.12",
+    "antd": "^4.11.1",
+    "antd-img-crop": "^4.6.0",
+    "aos": "^2.3.4",
+    "apexcharts": "^3.37.0",
+    "axios": "^0.27.1",
+    "babel-plugin-emotion": "^11.0.0",
+    "lodash": "^4.17.21",
+    "papaparse": "^5.3.2",
+    "prop-types": "^15.7.2",
+    "react": "^18.0.0",
+    "react-apexcharts": "^1.4.0",
+    "react-dom": "^18.0.0",
+    "react-hot-loader": "^4.13.0",
+    "react-icons": "^4.7.1",
+    "react-lottie": "^1.2.3",
+    "react-redux": "^8.0.1",
+    "react-router-dom": "5.2.0",
+    "react-scripts": "^5.0.1",
+    "redux": "^4.0.5",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.3.0",
+    "workbox-cacheable-response": "^6.1.5",
+    "workbox-core": "^6.1.5",
+    "workbox-expiration": "^6.1.5",
+    "workbox-precaching": "^6.1.5",
+    "workbox-routing": "^6.1.5",
+    "workbox-strategies": "^6.1.5"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
